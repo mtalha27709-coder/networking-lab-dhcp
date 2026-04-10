@@ -14,6 +14,14 @@ This lab demonstrates how a wireless router assigns IP addresses automatically u
 Added 3 PCs (PC0, PC1, PC2)
 Connected all PCs to Wireless Router using straight-through cables
 Waited until link lights turned green
+
+
+
+
+
+
+
+
 📡 Step 2: Default DHCP Observation
 On PC0:
 Go to Desktop → IP Configuration
@@ -30,6 +38,12 @@ Observations:
 DHCP is enabled by default
 Router automatically assigns IP range
 Default network is visible in settings
+
+
+
+
+
+
 🔧 Step 3: Change Router IP Address
 New IP:
 192.168.5.1
@@ -39,6 +53,10 @@ Reconnect:
 PC0 → IP Configuration → DHCP renew
 Open browser:
 http://192.168.5.1
+
+
+
+
 📶 Step 4: Modify DHCP Range
 Updated Settings:
 Starting IP:
@@ -48,6 +66,11 @@ Maximum Users:
 Save settings
 📌 PC0 New IP:
 192.168.5.x (assigned via DHCP)
+
+
+
+
+
 💻 Step 5: Enable DHCP on Other PCs
 PC1:
 Desktop → IP Configuration → DHCP
@@ -57,6 +80,11 @@ PC2:
 Desktop → IP Configuration → DHCP
 PC2 IP:
 192.168.5.x
+
+
+
+
+
 🔍 Step 6: Connectivity Test
 On PC2:
 Check IP:
@@ -67,19 +95,45 @@ Ping PC1:
 ping 192.168.5.127
 ✅ Results
 
+
+
+
+
+
 ✔ All PCs received IP via DHCP
 ✔ Router successfully configured
 ✔ Network communication working
 ✔ Pings successful between devices
 
+
+
+
+
+
+
+
+
+
 🧾 Conclusion
 
 This lab helped in understanding:
+
+
+
+
+
 
 DHCP configuration on wireless router
 Automatic IP assignment
 Custom network setup
 Basic network troubleshooting
+
+
+
+
+
+
+
 🚀 Author
 
 Talha (Cybersecurity Student)
